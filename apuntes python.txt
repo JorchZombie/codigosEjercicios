@@ -1,0 +1,9 @@
+==================> PROGRAMACION ORIENTADA A OBJETOS
+asi se crea una clase
+class NombreClase:
+  atributos
+  metedos
+
+  def __init__(self, atributos):
+
+  el argumento de self, hace referencia a si mismo (a la clase) para tener acceso a los atributos y a los metodos de la clase
