@@ -1,0 +1,28 @@
+EL HACKEO DEL BAR
+
+en la tranquila ciudad de JavaBeans, los cafeteros se encontraban en un dilema.
+Una serie de eventos desafortunados habia llevado a la perdida de los registros de
+sobres de cafe mas praciados. Los vigilantes del Expreso, siempre atentos, fueron
+los primeros en notar que algoa ndaba mal. Los Expertos Cafeteors confirmaron
+sus sospechas: los registros habian sido alterados. Ahora, dependia de los
+Maestros Tostadores y los Asociadoes del cafe restaurar el orden, bajo la
+supervicion del barista
+
+=================> PROBLEMA
+
+se te ha proporcionado un archivo llamado, "registros_perdidos.txt" que contiene
+los registros de inventario de los sobres de cafe. pero hay un problema: los datos
+estan codificados y desordenados. Cada linea del archivo representa un registro,
+pero la informacion esta encriptada con una secuencia de numeros y letras 
+
+==================> PASOS A SEGUIR
+-> lee el contenido del archivo "registros_perdidos"
+-> desifra la informacion utilizando un algoritmo de decodificacion que te
+   proprorcionaremos como archivo llamado "Algoritmo Tostador"
+-> ordena los registros por fecha de mas antiguo a mas reciente
+-> crea un nuevo archivo llamado "registros_ordenados.txt" y guarda la
+   informacion decodificada y ordenala
+
+
+----------------------> al final del archivo deberia ser algo como:
+5684385,20230315,Café Arábica
