@@ -1,0 +1,37 @@
+Una Nueva clienta entra al cafe no disponible. Trae gafas, botas llenas de lodo y una lista de preferencias tan larga como tu historial de erroes de sintaxis
+
+se sienta y te mira y dice:
+
+"quiero un cafe con mi nombre. Uno que sepa como me identifico. ¿Puedes con eso?"
+
+El Maestro Tostador carraspea desde el fondo:
+
+"Si pone F como género saludala en femenimo"
+"Si pone M, en masculino"
+"y si pone otra cosa... dile que esto es una cafeteria, no una red social"
+
+Tu mission es:
+
+=> escribe un programa que:
+	- pida al usuario su nombre y su genero
+	- luego impre un mensaje como:
+
+Bienvenido, Juan
+Bienvenido, Sofia
+Bienvenid@, Alex
+
+ejemplo de ejecucion:
+
+Nombre: Luna
+Genero (M/F): F
+Bienvenda, Luna
+
+
+Nombre: Max
+Genero (M/F): m
+Bienvendo, Max
+
+
+Nombre: Sam
+Genero (M/F): X
+No digas mmds, Sam
