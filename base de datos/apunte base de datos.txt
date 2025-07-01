@@ -1,0 +1,80 @@
+-> NORMALIZACIÓN
+   cuando una base de datos esta normalizada, es porque esta en forma normal y ya paso
+   minimo una de estas tres formas
+	hay tres tipos de parametros para que una base de datos este normalizada
+	1.-Forma Normal:
+		-no tener campos repetidos
+		-no tener orden en las columnas 
+		-crear tablas independientes por conjunto de datos
+
+		+relacionamineto de tablas con claves
+		+eliminacion de datos redundates
+
+		~eliminar datos no dependintes de la clave
+	
+   un jak es usar excel nomas para dibujar la base de datos ya de ahi empezar a normaliza-
+   rla. Una vez hecho eso ahora si se pasa a la base de datos c:
+
+-> TIPOS DE DATOS
+   como saber que tipo de dato usar, seria usar la documentacion en la pagina de microsoft
+   - bigint (8 bytes)
+   - bit
+   - decimal
+   - int (4 bytes)
+   - numeric
+   - smallint (2 bytes)
+   - smallmoney
+   - tinyint (1 Bytes)
+
+   TIPOS DE DATOS NUMERICOS APROXIMADOS
+	- float
+
+   TIPOS DE DATOSFECHA Y HORA
+	- date
+	- datetime2
+	- datetime
+	- datetimeoffset
+	- smalldatetime
+	- time
+
+  TIPOS DE DATOS CADENA CARACTERES
+	- varchar
+	- char
+	- text
+
+  TIPOS DE DATOS CADENA CARACTERES UNICODE
+	- nvarchar
+	- nchar
+	- ntext
+
+-> PRIMARY KEY - FOREIGN KEY
+   las tablas cuentan con relaciones entre ellas, dichas relaciones son hechas con llaves
+   primarias o secundarias
+   
+   solo se puede tener una llave primaria por tabla y no puede tener campos repetidos o
+   campos en blanco; esto seria como una clase padre
+
+   las llaves secundarias son como las clase hijo 
+
+-> ¿QUÉ ES DDL - DML - DCL?
+   DDL:
+	lenguaje de definicion de datos definir la estructura de los datos, vamos a ver
+	en donde se van a guardar el DDL esto tiene el:
+		- create
+		- alter
+		- drop
+		- rename
+   DML:
+	lenguaje de manipulacion de datos, es lo que permite consultar o modificar la
+	informacion de la base
+		- bulk insert
+		- delete
+		- insert
+		- update
+		- merge
+		- trancate table
+   DCL:
+	lenguaje de control de datos, el cual permite controlar y otorgar el acceso a la
+	base de datos
+		- grant
+		- revoke
